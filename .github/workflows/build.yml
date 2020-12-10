@@ -1,6 +1,7 @@
 name: Build health.ashish.me
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
