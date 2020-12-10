@@ -13,7 +13,7 @@ index_re = re.compile(
 if __name__ == "__main__":
     index = ["<!-- index starts -->"]
     try:
-        sqliteConnection = sqlite3.connect('ashishdb.db')
+        sqliteConnection = sqlite3.connect('ashish.db')
         cursor = sqliteConnection.cursor()
         sqlite_select_query = """SELECT day, sum(stepcount) FROM steps GROUP BY day ORDER BY day desc LIMIT 30"""
         cursor.execute(sqlite_select_query)
