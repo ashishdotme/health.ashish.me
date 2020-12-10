@@ -9,7 +9,7 @@
 <a href="https://img.shields.io/github/workflow/status/ashishdotme/health.ashish.me/Build%20health.ashish.me/master?style=for-the-badge"><img src="https://img.shields.io/github/workflow/status/ashishdotme/health.ashish.me/Build%20health.ashish.me/master?style=for-the-badge"></a>
 </p>
 
-<p align="center">health stats from my apple watch</p>
+<p align="center">👨‍⚕️ health stats from my apple watch</p>
 
 ## Stepcount stats for last 30 days
 
