@@ -20,7 +20,7 @@ if __name__ == "__main__":
         records = cursor.fetchall()
         for row in records:
             index.append(
-            "**{value}** - *{date}*".format(
+            "- **{value}** steps - *{date}*".format(
                 date=row[0],
                 value=row[1]
             )
